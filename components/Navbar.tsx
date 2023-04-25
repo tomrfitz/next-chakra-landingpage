@@ -22,7 +22,7 @@ import {
   useDisclosure,
 } from "@chakra-ui/react";
 
-export default function NavBar() {
+export default function Navbar() {
   const { isOpen, onToggle } = useDisclosure();
 
   return (
